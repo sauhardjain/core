@@ -2,9 +2,35 @@
   <head>
     <title>Placeholder</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+       var scroll_start = 0;
+       var startchange = $('#featuresbox');
+       var offset = startchange.offset();
+       $(document).scroll(function() {
+          scroll_start = $(this).scrollTop();
+          if(scroll_start > offset.top) {
+              $('#navbar').css('background-color', 'white');
+              $('.links li a').css('color', 'black');
+           } else {
+              $('#navbar').css('background-color', 'transparent');
+              $('.links li a').css('color', 'white');
+           }
+       });
+    });
+
+    </script>
   </head>
   <body>
     <div id="wrapper">
+      <div id="navbar">
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About us</a></li>
+          <li><a href="index.html">Design</a></li>
+        </ul>
+      </div>
       <div id="header">
         <div id="container">
           <h1>Name</h1>
@@ -13,14 +39,43 @@
         </div>
         <img src="background.jpg">
       </div>
-      <div id="feature1">
-        <h1>Feature 1</h1>
-        <img src="smw1.jpeg">
+      <div id="featuresbox">
+        <div class="features">
+          <h1>Feature1</h1>
+          <img src="smw1.jpeg">
+        </div>
+        <div class="features">
+          <h1>Feature2</h1>
+          <img src="smw1.jpeg">
+        </div>
+        <div class="features">
+          <h1>Feature3</h1>
+          <img src="smw1.jpeg">
+        </div>
       </div>
-      <div id="feature2">
-        <h1>Feature 2</h1>
-        <img src="smw1.jpeg">
-      </div>
+        <div id="innovate">
+          <div id="innovatemessage">
+            <h1>Innovate beyond</h1>
+          </div>
+          <div id="innovateimage">
+            <img src="smw3.jpg">
+          </div>
+        </div>
+        <div id="specs">
+          <h1>Technical Specifications</h1>
+        </div>
+        <div id="wideimage">
+          <h1>Comfort...</h1>
+          <img src="smw2.jpg">
+        </div>
+        <div id="dandd">
+          <h1>Design & Display</h1>
+        </div>
+        <div id="contact">
+          <h2>Company name</h2>
+          <h3>email</h3>
+          <h3>+1-(4536)-732</h3>
+        </div>
     </div>
   </body>
 </html>
