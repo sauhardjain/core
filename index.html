@@ -3,24 +3,7 @@
     <title>Placeholder</title>
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script>
-    $(document).ready(function(){
-       var scroll_start = 0;
-       var startchange = $('#featuresbox');
-       var offset = startchange.offset();
-       $(document).scroll(function() {
-          scroll_start = $(this).scrollTop();
-          if(scroll_start > offset.top) {
-              $('#navbar').css('background-color', 'white');
-              $('.links li a').css('color', 'black');
-           } else {
-              $('#navbar').css('background-color', 'transparent');
-              $('.links li a').css('color', 'white');
-           }
-       });
-    });
-
-    </script>
+    <script src="script.js"></script>
   </head>
   <body>
     <div id="wrapper">
@@ -37,9 +20,8 @@
           <h2>The smartwatch of the future</h2>
           <div id="button">Buy now</div>
         </div>
-        <img src="background.jpg">
       </div>
-      <div id="featuresbox">
+      <div id="featuresbox" class="fadein">
         <div class="features">
           <h1>Feature1</h1>
           <img src="smw1.jpeg">
@@ -53,7 +35,7 @@
           <img src="smw1.jpeg">
         </div>
       </div>
-        <div id="innovate">
+        <div id="innovate" class="fadein">
           <div id="innovatemessage">
             <h1>Innovate beyond</h1>
           </div>
@@ -61,17 +43,16 @@
             <img src="smw3.jpg">
           </div>
         </div>
-        <div id="specs">
+        <div id="specs" class="fadein">
           <h1>Technical Specifications</h1>
         </div>
         <div id="wideimage">
           <h1>Comfort...</h1>
-          <img src="smw2.jpg">
         </div>
-        <div id="dandd">
+        <div id="dandd" class="fadein">
           <h1>Design & Display</h1>
         </div>
-        <div id="contact">
+        <div id="contact" class="fadein">
           <h2>Company name</h2>
           <h3>email</h3>
           <h3>+1-(4536)-732</h3>

@@ -10,7 +10,7 @@
   position:fixed;
   width:inherit;
   height:55px;
-  z-index:2;
+  z-index:3;
   text-align:right;
 }
 
@@ -32,10 +32,16 @@
 
 #header {
   position:relative;
+  height:800px;
   width:100%;
   top:0;
   left:0;
   right:0;
+  background-image:url("background.jpg");
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
   overflow:hidden;
 }
 
@@ -66,20 +72,15 @@
   font-size:40px;
 }
 
-#header img {
-  position:relative;
-  width:inherit;
-  z-index:0;
-}
-
 #featuresbox {
   position:relative;
   width:inherit;
   height:700px;
   margin-top:0px;
-  background-color:#f7f5f5;
+  background-color:#6cc4c5;
   text-align:center;
   display:block;
+  color:white;
 }
 
 .features {
@@ -108,6 +109,7 @@
   width:inherit;
   height:500px;
   background-color:white;
+  color:#6cc4c5;
   padding-left:30px;
 }
 
@@ -132,7 +134,8 @@
 #specs {
   width:inherit;
   height:500px;
-  background-color:#f7f5f5;
+  background-color:#6cc4c5;
+  color:white;
   margin-top:0;
   padding-top:20px;
   padding-left:30px;
@@ -142,12 +145,11 @@
 #wideimage {
   width:inherit;
   height:390px;
-}
-
-#wideimage img {
-  height:inherit;
-  width:100%;
-  position:relative;
+  background-image:url('smw2.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
 }
 
 #wideimage h1 {
@@ -163,12 +165,18 @@
   width:inherit;
   height:500px;
   background-color:white;
+  color:#6cc4c5;
 }
 
 #contact {
   width:inherit;
   padding-top:20px;
-  background-color:#f7f5f5;
+  background-color:#6cc4c5;
+  color:white;
   height:150px;
   text-align:center;
+}
+
+.fadein {
+  opacity:0;
 }
