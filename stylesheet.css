@@ -26,13 +26,34 @@ body {
 .links li {
   display:inline-block;
   margin-right:30px;
+  width:70px;
+  text-align:center;
 }
 
-.links li a {
+.menubefore {
   text-decoration:none;
   font-weight:bold;
   font-size:20px;
   display:block;
+  color:white;
+}
+
+.menubefore:hover {
+  color:#6cc4c5;
+}
+
+.menuafter {
+  text-decoration:none;
+  font-weight:bold;
+  font-size:20px;
+  display:block;
+  color:#6cc4c5;
+  height:inherit;
+  border-radius:5px;
+}
+
+.menuafter:hover {
+  background-color:#6cc4c5;
   color:white;
 }
 
@@ -76,6 +97,11 @@ body {
   width:auto;
   color:white;
   font-size:40px;
+}
+
+#button:hover{
+  border: solid #6cc4c5;
+  color:#6cc4c5;
 }
 
 #featuresbox {
