@@ -1,5 +1,23 @@
 /*eslint-disable*/
 $(document).ready(function(){
+
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        window.location.hash = hash;
+      });
+    }
+  });
+
    var scroll_start = 0;
    var startchange = $('#container');
    var offset = startchange.offset();
@@ -19,7 +37,7 @@ $(document).ready(function(){
        var objecttop = $(this).offset().top;
        var windowbottom = $(window).scrollTop()+$(window).height();
        if(objecttop<windowbottom){
-         $(this).animate({'opacity':'1'},1750);
+         $(this).animate({'opacity':'1'},750);
        }
      });
    });
