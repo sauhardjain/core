@@ -25,10 +25,11 @@ $(document).ready(function(){
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
           $('#navbar').css('background-color', 'white');
-          $('.links li a').css('color', '#6cc4c5');
-       } else {
+          $('a').removeClass('menubefore').addClass('menuafter');
+       }
+       else {
           $('#navbar').css('background-color', 'transparent');
-          $('.links li a').css('color', 'white');
+          $('a').removeClass('menuafter').addClass('menubefore');
        }
    });
 
