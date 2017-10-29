@@ -78,32 +78,48 @@ body {
   overflow:hidden;
 }
 
-.feat {
-  flex-basis:50%;
+.cover {
+  position:absolute;
+  width:100%;
+  height:inherit;
+  overflow:hidden;
+  background:rgba(0,0,0,0.6);
+  opacity:0;
+  bottom:0;
+  top:0;
+  transition: all 0.5s;
 }
 
-.feat:hover {
-  opacity:0.7;
+.feat {
+  flex-basis:50%;
+  border:1px solid black;
+  position:relative;
+}
+
+.feat:hover .cover {
+  opacity:1;
 }
 
 .feat:hover .text {
   visibility:visible;
-  transform:translateY(-4px);
-  transition:0.5s;
+  transform:translateY(10px);
+  transition:0.8s;
 }
 
 .feat2 {
   flex-basis:33%;
+  border:0.5px solid black;
+  position:relative;
 }
 
-.feat2:hover {
-  opacity:0.7;
+.feat2:hover .cover {
+  opacity:1;
 }
 
 .feat2:hover .text {
   visibility:visible;
   transform:translateY(10px);
-  transition:0.5s;
+  transition:0.8s;
 }
 
 .text {
