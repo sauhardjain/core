@@ -56,7 +56,7 @@ body {
 }
 #header {
   position:relative;
-  height:800px;
+  height:100vh;
   width:100%;
   top:0;
   left:0;
@@ -95,7 +95,7 @@ body {
 
 .feat {
   flex-basis:50%;
-  border:0.2px solid gray;
+  border:0.1px solid gray;
   position:relative;
 }
 
@@ -111,7 +111,7 @@ body {
 
 .feat2 {
   flex-basis:33.3%;
-  border:0.2px solid gray;
+  border:0.1px solid gray;
   position:relative;
 }
 
@@ -127,46 +127,51 @@ body {
 
 .textlayer1 {
   visibility:hidden;
-  padding-left:30%;
+  padding-left:38%;
   padding-top:25%;
   color:#2ba3a5;
 }
 
 .textlayer2 {
   visibility:hidden;
-  padding-left:30%;
+  padding-left:32%;
   padding-top:40%;
   color:#2ba3a5;
 }
 
 #feature1 {
-  background:url("smw1.jpeg");
+  background:url("feature1.png");
   background-size:100%;
   background-repeat:no-repeat;
+  background-position:center;
 }
 
 #feature2 {
-  background:url("smw5.jpg");
+  background:url("feature2.png");
   background-size:100%;
   background-repeat:no-repeat;
+  background-position:center;
 }
 
 #feature3 {
-  background:url("smw3.jpg");
+  background:url("feature3.png");
   background-size:100%;
   background-repeat:no-repeat;
+  background-position:center;
 }
 
 #feature4 {
-  background:url("smw4.jpeg");
+  background:url("feature4.png");
   background-size:100%;
   background-repeat:no-repeat;
+  background-position:center;
 }
 
 #feature5 {
-  background:url("smw6.jpeg");
+  background:url("feature5.png");
   background-size:100%;
   background-repeat:no-repeat;
+  background-position:center;
 }
 
 #specs {
