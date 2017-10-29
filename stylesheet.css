@@ -135,7 +135,7 @@ body {
 .textlayer2 {
   visibility:hidden;
   padding-left:30%;
-  padding-top:50%;
+  padding-top:40%;
   color:#2ba3a5;
 }
 
@@ -171,7 +171,7 @@ body {
 
 #specs {
   width:inherit;
-  height:500px;
+  height:540px;
   background-color:#2ba3a5;
   color:white;
   margin-top:0;
@@ -181,12 +181,12 @@ body {
 }
 
 #specs h1 {
-  font-size:40px;
+  font-size:50px;
 }
 
 #speclist {
   list-style:none;
-  font-size:30px;
+  font-size:40px;
 }
 
 #wideimage {
@@ -211,9 +211,17 @@ body {
 #dandd {
   width:inherit;
   padding-left:30px;
-  height:500px;
+  height:460px;
   background-color:white;
   color:#2ba3a5;
+}
+
+#dandd h1 {
+  font-size:50px;
+}
+
+#dandd ul {
+  font-size:40px;
 }
 
 #contact {
@@ -234,5 +242,9 @@ body {
 }
 
 .fadein {
+  opacity:0;
+}
+
+.fadein2 {
   opacity:0;
 }

@@ -42,4 +42,14 @@ $(document).ready(function(){
        }
      });
    });
+
+   $(window).scroll(function(item){
+     $('.fadein2').each(function(item){
+       var objecttop = $(this).offset().top;
+       var windowbottom = $(window).scrollTop()+$(window).height();
+       if(objecttop<windowbottom){
+         $(this).animate({'opacity':'1'},1000);
+       }
+     });
+   });
 });
