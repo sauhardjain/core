@@ -110,7 +110,7 @@ body {
 
 .feat2 {
   flex-basis:33.3%;
-  border:0.1px solid gray;
+  border:0.1px solid #000;
   position:relative;
 }
 
@@ -126,14 +126,14 @@ body {
 
 .textlayer1 {
   visibility:hidden;
-  padding-left:38%;
+
   padding-top:45%;
   color:white;
 }
 
 .textlayer2 {
   visibility:hidden;
-  padding-left:32%;
+
   padding-top:40%;
   color:white;
 }
@@ -146,7 +146,7 @@ body {
 }
 
 #feature2 {
-  background:url("feature2.png");
+  background:url("feature4.png");
   background-size:100%;
   background-repeat:no-repeat;
   background-position:center;
@@ -160,7 +160,7 @@ body {
 }
 
 #feature4 {
-  background:url("feature4.png");
+  background:url("feature2.png");
   background-size:100%;
   background-repeat:no-repeat;
   background-position:center;
@@ -174,49 +174,31 @@ body {
 }
 
 #specs {
-  width:inherit;
-  height:540px;
-  background-color:#2ba3a5;
-  color:white;
+  height:820px;
   margin-top:0;
-  padding-top:20px;
   padding-left:30px;
-  text-align:center;
+  background-image:url("techspecs.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-#specs h1 {
-  font-size:50px;
-}
-
-#speclist {
-  list-style:none;
-  font-size:40px;
-}
 
 #dandd {
-  width:inherit;
   padding-left:30px;
-  height:460px;
-  background-color:white;
-  color:#2ba3a5;
-}
-
-#dandd h1 {
-  font-size:50px;
-}
-
-#dandd ul {
-  font-size:40px;
+  height: 810px;
+  background-image:url("design.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  
 }
 
 #contact {
-  padding-top:9px;
   background-color:#2ba3a5;
   font-family: Open Sans;
   font-weight: lighter;
   color:white;
   height:60px;
-  text-align:left;
+  padding-top: 9px;
   padding-left:10px;
 }
 
