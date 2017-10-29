@@ -18,6 +18,11 @@ $(document).ready(function(){
     }
   });
 
+  var flex1w = $('.feat').width();
+  $('.feat').css({'height':flex1w+'px'});
+  var flex2w = $('.feat2').width();
+  $('.feat2').css({'height':flex2w+'px'}); 
+
    var scroll_start = 0;
    var startchange = $('#container');
    var offset = startchange.offset();

@@ -61,7 +61,7 @@ body {
   top:0;
   left:0;
   right:0;
-  background-image:url("mainheader.jpg");
+  background-image:url("mainheader.png");
   background-attachment:fixed;
   background-repeat:no-repeat;
   background-size:cover;
@@ -77,8 +77,6 @@ body {
   display:inline-flex;
   flex-direction:row;
   width:inherit;
-  height:400px;
-  overflow:hidden;
 }
 
 .cover {
@@ -128,15 +126,15 @@ body {
 .textlayer1 {
   visibility:hidden;
   padding-left:38%;
-  padding-top:25%;
-  color:#2ba3a5;
+  padding-top:45%;
+  color:white;
 }
 
 .textlayer2 {
   visibility:hidden;
   padding-left:32%;
   padding-top:40%;
-  color:#2ba3a5;
+  color:white;
 }
 
 #feature1 {
@@ -194,25 +192,6 @@ body {
   font-size:40px;
 }
 
-#wideimage {
-  width:inherit;
-  height:390px;
-  background-image:url('smw2.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
-  background-attachment:fixed;
-}
-
-#wideimage h1 {
-  position:absolute;
-  color:white;
-  margin-left:73%;
-  margin-top:23%;
-  font-size:50px;
-  z-index:2;
-}
-
 #dandd {
   width:inherit;
   padding-left:30px;
@@ -231,11 +210,16 @@ body {
 
 #contact {
   width:inherit;
-  padding-top:20px;
+  padding-top:9px;
   background-color:#2ba3a5;
   color:white;
-  height:170px;
-  text-align:center;
+  height:60px;
+  text-align:left;
+  padding-left:10px;
+}
+
+#contact h1 {
+  font-size:20px;
 }
 
 #logo {
