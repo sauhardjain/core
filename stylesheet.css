@@ -85,7 +85,7 @@ body {
   width:100%;
   height:inherit;
   overflow:hidden;
-  background:rgba(0,0,0,0.6);
+  background:rgba(0,0,0,0.8);
   opacity:0;
   bottom:0;
   top:0;
@@ -126,14 +126,12 @@ body {
 
 .textlayer1 {
   visibility:hidden;
-
   padding-top:45%;
   color:white;
 }
 
 .textlayer2 {
   visibility:hidden;
-
   padding-top:40%;
   color:white;
 }
@@ -175,13 +173,18 @@ body {
 
 #specs {
   height:820px;
+  width:inherit;
+  height:670px;
+  background-image:url(techspecs.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
   margin-top:0;
   padding-left:30px;
   background-image:url("techspecs.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 
 #dandd {
   padding-left:30px;
@@ -194,6 +197,25 @@ body {
 
 #contact {
   background-color:#2ba3a5;
+=======
+  height:670px;
+  background-image:url('design.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+#dandd h1 {
+  font-size:50px;
+}
+
+#dandd ul {
+  font-size:40px;
+}
+
+#contact {
+  padding-top:9px;
+  background-color:black;
   font-family: Open Sans;
   font-weight: lighter;
   color:white;
@@ -204,6 +226,7 @@ body {
 
 #contact h1 {
   font-size:20px;
+  color:gray
 }
 
 #logo {
