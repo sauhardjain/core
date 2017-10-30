@@ -110,7 +110,7 @@ body {
 
 .feat2 {
   flex-basis:33.3%;
-  border:0.1px solid gray;
+  border:0.1px solid #000;
   position:relative;
 }
 
@@ -144,7 +144,7 @@ body {
 }
 
 #feature2 {
-  background:url("feature2.png");
+  background:url("feature4.png");
   background-size:100%;
   background-repeat:no-repeat;
   background-position:center;
@@ -158,7 +158,7 @@ body {
 }
 
 #feature4 {
-  background:url("feature4.png");
+  background:url("feature2.png");
   background-size:100%;
   background-repeat:no-repeat;
   background-position:center;
@@ -172,6 +172,7 @@ body {
 }
 
 #specs {
+  height:820px;
   width:inherit;
   height:670px;
   background-image:url(techspecs.png);
@@ -179,13 +180,24 @@ body {
   background-repeat:no-repeat;
   background-position:center;
   margin-top:0;
-  padding-top:20px;
   padding-left:30px;
+  background-image:url("techspecs.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 #dandd {
-  width:inherit;
   padding-left:30px;
+  height: 810px;
+  background-image:url("design.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+#contact {
+  background-color:#2ba3a5;
+=======
   height:670px;
   background-image:url('design.jpg');
   background-size:cover;
@@ -208,7 +220,7 @@ body {
   font-weight: lighter;
   color:white;
   height:60px;
-  text-align:left;
+  padding-top: 9px;
   padding-left:10px;
 }
 
