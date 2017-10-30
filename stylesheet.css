@@ -85,7 +85,7 @@ body {
   width:100%;
   height:inherit;
   overflow:hidden;
-  background:rgba(0,0,0,0.6);
+  background:rgba(0,0,0,0.8);
   opacity:0;
   bottom:0;
   top:0;
@@ -126,14 +126,12 @@ body {
 
 .textlayer1 {
   visibility:hidden;
-  padding-left:38%;
   padding-top:45%;
   color:white;
 }
 
 .textlayer2 {
   visibility:hidden;
-  padding-left:32%;
   padding-top:40%;
   color:white;
 }
@@ -175,30 +173,24 @@ body {
 
 #specs {
   width:inherit;
-  height:540px;
-  background-color:#2ba3a5;
-  color:white;
+  height:670px;
+  background-image:url(techspecs.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
   margin-top:0;
   padding-top:20px;
   padding-left:30px;
-  text-align:center;
-}
-
-#specs h1 {
-  font-size:50px;
-}
-
-#speclist {
-  list-style:none;
-  font-size:40px;
 }
 
 #dandd {
   width:inherit;
   padding-left:30px;
-  height:460px;
-  background-color:white;
-  color:#2ba3a5;
+  height:670px;
+  background-image:url('design.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
 #dandd h1 {
@@ -211,7 +203,7 @@ body {
 
 #contact {
   padding-top:9px;
-  background-color:#2ba3a5;
+  background-color:black;
   font-family: Open Sans;
   font-weight: lighter;
   color:white;
@@ -222,6 +214,7 @@ body {
 
 #contact h1 {
   font-size:20px;
+  color:gray
 }
 
 #logo {
