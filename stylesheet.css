@@ -174,7 +174,7 @@ body {
 #specs {
   height:820px;
   width:inherit;
-  height:670px;
+  height:810px;
   background-image:url(techspecs.png);
   background-size:cover;
   background-repeat:no-repeat;
@@ -192,19 +192,7 @@ body {
   background-image:url("design.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  
-}
-
-#contact {
-  background-color:#2ba3a5;
-=======
-  height:670px;
-  background-image:url('design.jpg');
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
-}
-
+  }
 #dandd h1 {
   font-size:50px;
 }
